@@ -5,7 +5,7 @@
 
 pkgname=paru
 pkgver=2.1.0
-pkgrel=2
+pkgrel=1
 pkgdesc='Feature packed AUR helper.'
 url='https://github.com/morganamilo/paru'
 arch=('x86_64' 'aarch64')
@@ -20,6 +20,7 @@ sha512sums=('031dea9cc90146bdfb006ee9ccb34e634c3894297e43172b416f776c168c2ab5ced
 
 prepare() {
   cd "$pkgname-$pkgver"
+
   cargo update alpm alpm-utils
   cargo fetch --locked --target "$(rustc -vV | sed -n 's|host: ||p')"
 }
