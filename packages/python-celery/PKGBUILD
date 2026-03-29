@@ -21,7 +21,8 @@ optdepends=('python-cryptography: for celery.security'
             'python-boto3: for SQS transport'
             'python-yaml: for using the yaml serializer'
             'python-pyzmq: for using ZeroMQ transport')
-makedepends=('python-build' 'python-installer' 'python-wheel' 'python-setuptools')
+makedepends=('python-build' 'python-installer' 'python-wheel'
+             'python-setuptools')
 source=("https://files.pythonhosted.org/packages/source/${_pkgname::1}/$_pkgname/$_pkgname-$pkgver.tar.gz"
         'celery@.service'
         'celery.tmpfiles.d')

@@ -10,7 +10,8 @@ arch=('any')
 url='https://pypi.org/project/pyngrok/#files'
 license=('MIT')
 depends=('python' 'ngrok')
-makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+makedepends=('python-build' 'python-installer' 'python-setuptools'
+             'python-wheel')
 source=("https://files.pythonhosted.org/packages/source/${_pkgname::1}/$_pkgname/$_pkgname-$pkgver.tar.gz")
 sha512sums=('4cdb92bc8e898444c39445a5ca491fbfcd3abc1105108f7dc15b280d4d9eadb43e9c695e031eeeaf72f8643239e493c8bd1e7a019ddb1d5ca812b86a90cc9553')
 
