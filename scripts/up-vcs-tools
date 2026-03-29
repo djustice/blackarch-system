@@ -3,12 +3,12 @@
 BASE=${PWD}/${BASH_SOURCE[0]%/*}
 LOG="${BASE}/../lists/to-release"
 
-EX='0d1n apacket apt2 autonse autovpn bamf-framework bashscan blackbox-scanner
-blackeye blue-hydra billcipher bof-detector boopsuite breads brut3k1t brutexss
-cheetah-suite citadel cjexploiter cmsfuzz crackmapexec crozono cybercrowl
-darkspiritz dagon d-tect dorkme entropy evilpdf expimp-lookup exploitpack
-extracthosts facebash fbi filegps findmyiphone flamerobin ftpmap genisys
-ghostdelivery gloom grabing graffiti hashpump hiddeneye hiddeneye-legacy
+EX='0d1n apacket apt2 autonse autosint autovpn bamf-framework bashscan
+blackbox-scanner blackeye blue-hydra billcipher bof-detector boopsuite breads
+brut3k1t brutexss cheetah-suite citadel cjexploiter cmsfuzz crackmapexec crozono
+cybercrowl darkspiritz dagon d-tect dorkme entropy evilpdf expimp-lookup
+exploitpack extracthosts facebash fbi filegps findmyiphone flamerobin ftpmap
+genisys ghostdelivery gloom grabing graffiti hashpump hiddeneye hiddeneye-legacy
 htrosbif honeycreds hubbit-sniffer hyde icloudbrutter infoga instashell
 intersect ircsnapshot koadic konan junkie jooforce jsearch l0l ld-shatner
 leroy-jenkins levye liffy loot maigret maryam mdbtools mooscan mosca multitun

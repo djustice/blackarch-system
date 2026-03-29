@@ -4,7 +4,7 @@
 pkgname=bbot
 pkgver=7558.ec1acae
 pkgrel=1
-epoch=1
+epoch=2
 pkgdesc='Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.'
 arch=('any')
 groups=('blackarch' 'blackarch-recon')
