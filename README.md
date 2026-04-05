@@ -131,6 +131,8 @@ pacman -Ss blackarch
 After installation, you can run tools directly from the terminal or application
 menu. Most tools are command-line based, ideal for automation and scripting.
 
+---
+
 # Get Involved
 
 BlackArch is open source and welcomes contributions from the community.
