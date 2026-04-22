@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=sshprank
-pkgver=1.5.0
+pkgver=1.6.0
 pkgrel=1
 groups=('blackarch' 'blackarch-cracker' 'blackarch-scanner'
         'blackarch-fingerprint')
@@ -12,7 +12,7 @@ license=('custom:unknown')
 arch=('any')
 depends=('python' 'python-python-masscan' 'python-paramiko' 'python-shodan')
 source=("https://github.com/nullsecuritynet/tools/raw/main/cracker/$pkgname/release/$pkgname-$pkgver.tar.gz")
-sha512sums=('768fb3557486d146c78bafc2e2bf2404b21097696fdd7c59f2ffea882eae90bb33c3130a530fd441dd011c2741bbbf3cf79952879ad1a5b2b545fbfe016e0361')
+sha512sums=('fbb3ffc6855996f1e3636ef3f207a5717d7855b0fb67960d35c504fa6ad623c90f755035a375744ae232d481274c70bb3179e6bc580ed6d060a6347e004b224a')
 
 package() {
   cd "$pkgname-$pkgver"
